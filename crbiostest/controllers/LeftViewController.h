@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LeftViewController.h
 //  crbiostest
 //
 //  Created by  on 7/6/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RESideMenu.h"
 
-@interface ViewController : UIViewController
-
+@interface LeftViewController : UIViewController
 
 @end
-

@@ -7,28 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302C44C01D2CDB5200E045AA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C44BF1D2CDB5200E045AA /* LeftViewController.m */; };
+		302C44C31D2CDBE800E045AA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C44C21D2CDBE800E045AA /* HomeViewController.m */; };
+		302C44C71D2D171000E045AA /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C44C61D2D171000E045AA /* SearchViewController.m */; };
 		308140D41D2CBC6100B07F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 308140D31D2CBC6100B07F7B /* main.m */; };
 		308140D71D2CBC6100B07F7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308140D61D2CBC6100B07F7B /* AppDelegate.m */; };
-		308140DA1D2CBC6100B07F7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308140D91D2CBC6100B07F7B /* ViewController.m */; };
 		308140DD1D2CBC6100B07F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308140DB1D2CBC6100B07F7B /* Main.storyboard */; };
 		308140E01D2CBC6100B07F7B /* crbiostest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 308140DE1D2CBC6100B07F7B /* crbiostest.xcdatamodeld */; };
 		308140E21D2CBC6100B07F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308140E11D2CBC6100B07F7B /* Assets.xcassets */; };
 		308140E51D2CBC6100B07F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308140E31D2CBC6100B07F7B /* LaunchScreen.storyboard */; };
+		308BFF6C1D2CC1BC00C16E26 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308BFF6B1D2CC1BC00C16E26 /* RootViewController.m */; };
 		B84BEB0C170F425A2C9DED69 /* libPods-crbiostest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E8D020E64AD4EEC315C3E7 /* libPods-crbiostest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		302C44BE1D2CDB5200E045AA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = controllers/LeftViewController.h; sourceTree = "<group>"; };
+		302C44BF1D2CDB5200E045AA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = controllers/LeftViewController.m; sourceTree = "<group>"; };
+		302C44C11D2CDBE800E045AA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = controllers/HomeViewController.h; sourceTree = "<group>"; };
+		302C44C21D2CDBE800E045AA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = controllers/HomeViewController.m; sourceTree = "<group>"; };
+		302C44C51D2D171000E045AA /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = controllers/SearchViewController.h; sourceTree = "<group>"; };
+		302C44C61D2D171000E045AA /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = controllers/SearchViewController.m; sourceTree = "<group>"; };
 		308140CF1D2CBC6000B07F7B /* crbiostest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crbiostest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		308140D31D2CBC6100B07F7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		308140D51D2CBC6100B07F7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		308140D61D2CBC6100B07F7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		308140D81D2CBC6100B07F7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		308140D91D2CBC6100B07F7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		308140DC1D2CBC6100B07F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		308140DF1D2CBC6100B07F7B /* crbiostest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = crbiostest.xcdatamodel; sourceTree = "<group>"; };
 		308140E11D2CBC6100B07F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		308140E41D2CBC6100B07F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		308140E61D2CBC6100B07F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308BFF6A1D2CC1BC00C16E26 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = controllers/RootViewController.h; sourceTree = "<group>"; };
+		308BFF6B1D2CC1BC00C16E26 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = controllers/RootViewController.m; sourceTree = "<group>"; };
 		918CB2DE06327F6D70736D6E /* Pods-crbiostest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crbiostest.release.xcconfig"; path = "Pods/Target Support Files/Pods-crbiostest/Pods-crbiostest.release.xcconfig"; sourceTree = "<group>"; };
 		C9813601415571D0989DC43A /* Pods-crbiostest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crbiostest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-crbiostest/Pods-crbiostest.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E8D020E64AD4EEC315C3E7 /* libPods-crbiostest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crbiostest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,16 +76,8 @@
 		308140D11D2CBC6100B07F7B /* crbiostest */ = {
 			isa = PBXGroup;
 			children = (
-				308140D51D2CBC6100B07F7B /* AppDelegate.h */,
-				308140D61D2CBC6100B07F7B /* AppDelegate.m */,
-				308140D81D2CBC6100B07F7B /* ViewController.h */,
-				308140D91D2CBC6100B07F7B /* ViewController.m */,
-				308140DB1D2CBC6100B07F7B /* Main.storyboard */,
-				308140E11D2CBC6100B07F7B /* Assets.xcassets */,
-				308140E31D2CBC6100B07F7B /* LaunchScreen.storyboard */,
-				308140E61D2CBC6100B07F7B /* Info.plist */,
-				308140DE1D2CBC6100B07F7B /* crbiostest.xcdatamodeld */,
-				308140D21D2CBC6100B07F7B /* Supporting Files */,
+				308BFF6D1D2CC1CB00C16E26 /* begin */,
+				308BFF691D2CC1A100C16E26 /* controllers */,
 			);
 			path = crbiostest;
 			sourceTree = "<group>";
@@ -87,6 +88,36 @@
 				308140D31D2CBC6100B07F7B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		308BFF691D2CC1A100C16E26 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				308BFF6A1D2CC1BC00C16E26 /* RootViewController.h */,
+				308BFF6B1D2CC1BC00C16E26 /* RootViewController.m */,
+				302C44BE1D2CDB5200E045AA /* LeftViewController.h */,
+				302C44BF1D2CDB5200E045AA /* LeftViewController.m */,
+				302C44C11D2CDBE800E045AA /* HomeViewController.h */,
+				302C44C21D2CDBE800E045AA /* HomeViewController.m */,
+				302C44C51D2D171000E045AA /* SearchViewController.h */,
+				302C44C61D2D171000E045AA /* SearchViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		308BFF6D1D2CC1CB00C16E26 /* begin */ = {
+			isa = PBXGroup;
+			children = (
+				308140D51D2CBC6100B07F7B /* AppDelegate.h */,
+				308140D61D2CBC6100B07F7B /* AppDelegate.m */,
+				308140DB1D2CBC6100B07F7B /* Main.storyboard */,
+				308140E11D2CBC6100B07F7B /* Assets.xcassets */,
+				308140E31D2CBC6100B07F7B /* LaunchScreen.storyboard */,
+				308140E61D2CBC6100B07F7B /* Info.plist */,
+				308140DE1D2CBC6100B07F7B /* crbiostest.xcdatamodeld */,
+				308140D21D2CBC6100B07F7B /* Supporting Files */,
+			);
+			name = begin;
 			sourceTree = "<group>";
 		};
 		748A140C9D30307CE05055F2 /* Frameworks */ = {
@@ -228,10 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308140DA1D2CBC6100B07F7B /* ViewController.m in Sources */,
 				308140E01D2CBC6100B07F7B /* crbiostest.xcdatamodeld in Sources */,
 				308140D71D2CBC6100B07F7B /* AppDelegate.m in Sources */,
+				302C44C01D2CDB5200E045AA /* LeftViewController.m in Sources */,
 				308140D41D2CBC6100B07F7B /* main.m in Sources */,
+				302C44C31D2CDBE800E045AA /* HomeViewController.m in Sources */,
+				308BFF6C1D2CC1BC00C16E26 /* RootViewController.m in Sources */,
+				302C44C71D2D171000E045AA /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
